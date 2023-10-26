@@ -5,9 +5,20 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.containerPage{
+  min-height: 100vh; /* 100 % de la hauteur de la vue */
+  width: 100%; /* 100 % de la largeur de la vue (peut être omis) */
+  background-color: #f7f7f7; /* Couleur d'arrière-plan (personnalisez-la selon vos besoins) */
+  overflow: hidden; /* Pour éviter le débordement vertical */
+  align-items: center; /* Aligner le contenu verticalement au centre (facultatif) */
+  justify-content: center; /* Aligner le contenu horizontalement au centre (facultatif) */
+  /* Autres styles CSS selon vos besoins */
 }

@@ -1,0 +1,43 @@
+/* Footer */
+@import "~font-awesome/css/font-awesome.css";
+
+/* Footer */
+footer {
+    background-color: #1a285e; /* Bleu foncé pour la prédominance */
+    color: #fff; /* Texte en blanc sur fond bleu foncé */
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'Arial', sans-serif; /* Police simple et lisible */
+    height: 10vh;
+  }
+  
+  /* Social Links */
+  .social-links {
+    margin-top: 10px;
+  }
+  
+  .social-links a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+    color: #fff; /* Icônes en blanc */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    color: #007bff; /* Bleu clair pour la couleur de survol */
+  }
+  
+  /* Copyright Text */
+  footer p {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  /* Réinitialisation de la liste de puces et de la marge */
+  ul, li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }

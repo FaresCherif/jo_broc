@@ -1,0 +1,75 @@
+/* ContactForm.css */
+
+/* Conteneur principal du formulaire */
+.contact-form {
+  margin: 0 auto;
+  padding: 20px 40px 80px 20px;
+  border: 1px solid #1a285e; /* Bleu foncé pour la bordure */
+  background-color: #f7f7f7;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  min-height: 75vh;
+}
+
+/* Titre du formulaire */
+.contact-form h1 {
+  font-size: 28px; /* Texte légèrement plus grand */
+  margin-bottom: 20px;
+  color: #1a285e; /* Bleu foncé pour le titre */
+}
+
+/* Champs de saisie */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 15px 10px; /* Augmentation de la hauteur du champ */
+  margin: 20px 0;
+  border: 1px solid #1a285e; /* Utilisation de la couleur bleu foncé pour la bordure */
+  border-radius: 5px;
+}
+
+/* Champ de message */
+.contact-form textarea {
+  height: 400px; /* Hauteur du champ de message augmentée */
+  min-width: 30%;
+  max-width: 100%;
+}
+
+/* Bouton de téléchargement et d'envoi */
+.contact-form button {
+  width: 100%;
+  padding: 15px 0;
+  background-color: #1a285e; /* Bleu foncé pour le fond du bouton */
+  color: #fff;
+  border: none;
+  border-radius: 10px; /* Coins arrondis */
+  cursor: pointer;
+  font-size: 18px; /* Texte légèrement plus grand */
+  transition: background-color 0.3s;
+  margin-top: 40px;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3; /* Bleu clair au survol */
+}
+
+/* Liste des images téléchargées */
+.contact-form ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-form li {
+  margin-top: 10px;
+  text-align: left;
+}
+
+/* Liens des images */
+.contact-form a {
+  text-decoration: none;
+  color: #007BFF; /* Bleu foncé pour les liens */
+}
+
+.contact-form a:hover {
+  text-decoration: underline;
+}

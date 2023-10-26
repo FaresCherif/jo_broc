@@ -1,0 +1,37 @@
+/* Header.css */
+
+/* Styles pour l'en-tête */
+header {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 0;
+}
+
+/* Conteneur principal de l'en-tête */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+/* Logo */
+.logo h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+/* Bouton de contact */
+.contact-button {
+  background-color: #fff;
+  color: #007BFF;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.contact-button:hover {
+  background-color: #007BFF;
+  color: #fff;
+}
